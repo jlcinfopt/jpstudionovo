@@ -443,6 +443,8 @@ section {
     color: var(--primary-gold);
     font-size: 1.2rem;
     font-weight: 600;
+    background-image: url(../images/frente.jpeg);
+    background-size: cover;
 }
 
 /* Services Section */
@@ -548,6 +550,14 @@ section {
 .gallery-item .placeholder-image {
     aspect-ratio: 1;
     background: linear-gradient(135deg, var(--medium-gray), var(--primary-black));
+    width: 100px;
+    height: 390px;
+}
+.gallery span img{
+    width: 360px;
+    height: 400px;
+    margin-left: 250px;
+    border-radius: 20px;
 }
 
 /* Contact Section */
@@ -781,6 +791,17 @@ section {
 
     .social-links {
         align-items: center;
+    }
+    .gallery span img{
+        margin-right: 80px;
+        width: 130px;
+        height: 170px;
+    }
+    .gallery-item .placeholder-image{
+        width: 0px;
+        height: 170px;
+        text-align: center;
+        
     }
 }
 
